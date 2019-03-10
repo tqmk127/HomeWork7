@@ -2,13 +2,13 @@ package RoadEnterprise;
 
 public class Car {
 
-    private String carBrand;//марка авто
-    private String carNumber;//номерний знак
-    private String driver;//Прізвище та ім'я водія
-    private double weightCapacity;//вантажопідйомність
-    private boolean inTheWay;//автомобіль в рейсі
-    private String departureDate;//дата виїзду в рейс
-    private int duration;//тривалість рейсу(в днях)
+    private final String carBrand;//марка авто
+    private final String carNumber;//номерний знак
+    private final String driver;//Прізвище та ім'я водія
+    private final double weightCapacity;//вантажопідйомність
+    private final boolean inTheWay;//автомобіль в рейсі
+    private final String departureDate;//дата виїзду в рейс
+    private final int duration;//тривалість рейсу(в днях)
 
     //конструктор за замовчуванням
     public Car() {
